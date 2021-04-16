@@ -1,4 +1,4 @@
-import {handleSubmit} from './js/formhandler'
+import {handleSubmit} from './js/formHandler'
 import {viewData} from  './js/viewData';
 import "./styles/resets.scss";
 import "./styles/base.scss";
