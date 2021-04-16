@@ -28,3 +28,12 @@ I have created 4 sass files to style the project
 * using meaning cloud api :
 i have used the the sentiment Analysis api from  meaning cloud.
 The text provided would be  analyzed to determine if it expresses a positive/negative/neutral sentiment; to do this, the local polarity of the different sentences in the text is identified and the relationship between them evaluated, resulting in a global polarity value for the whole text.
+
+
+
+to run the project :
+1. you have to create a file called .env with your own API_KEY in it 
+2. you have to  build node_modules folder with npm install in the terminal
+3. then you have to build the dist folder with npm run build-prod 
+4. finally start the server with npm start
+5. you should find the application on the localhost:8081 on your browser
