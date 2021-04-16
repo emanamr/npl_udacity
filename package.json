@@ -1,0 +1,49 @@
+{
+  "name": "evaluate-news-nlp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/server/index.js",
+    "build-prod": "webpack --config webpack.prod.js --watch",
+    "build-dev": "webpack --config webpack.dev.js --watch"
+  },
+  "keywords": [],
+  "author": "Mohamed Eltantawy",
+  "description": "first frontend advanced project",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "regenerator-runtime": "^0.10.5",
+    "valid-url": "^1.0.9",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@types/jest": "^26.0.22",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.2.1",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "mini-css-extract-plugin": "^1.4.1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "supertest": "6.1.3",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.1.2"
+  }
+}
